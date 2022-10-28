@@ -1,10 +1,3 @@
-/* .particulae-container {
-    height: 100vh;
-    border: 2px solid red;
-    margin: 0;
-    padding: 0;
-} */
-
 #tsparticles {
     /* position: absolute; */
     top: 0;
@@ -19,32 +12,16 @@
 
 .particulae-container {
     border: 1px solid red;
-
     /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* .particulae-container {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 100%;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-} */
 
 #particulae--header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     height: min-content;
-    /* left:  20%;
-    right: 20%;
-    bottom:20%;
-    top: 20%; */
 }
 
 #particulae--header > h1 {
