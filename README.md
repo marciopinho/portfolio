@@ -1,2 +1,2 @@
-# portfolio
+# Portfolio
 Built using React.
