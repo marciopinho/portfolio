@@ -68,6 +68,10 @@ export default function Particulae() {
             id="tsparticles"
             init={particlesInit}
             options={options} />
+            <div id="particulae--header">
+                <h1>Márcio Pinho</h1>
+                <h2>Full-stack developer</h2>
+            </div>
         </div>
       )
 }

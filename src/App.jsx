@@ -11,10 +11,7 @@ function App() {
     <div className="App">
 
       <Particulae />
-      
-      <h1>Vite + React</h1>
-
-      <canvas id="canvas">Canvas not supported.</canvas>
+      {/* <canvas id="canvas">Canvas not supported.</canvas> -------now this is unecessary*/}
       <About />
     </div>
   )

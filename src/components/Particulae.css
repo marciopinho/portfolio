@@ -6,17 +6,26 @@
 } */
 
 #tsparticles {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     padding: 0;
     margin: 0;
-    z-index: -1; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+    z-index: -1;
+    height: 100vh;
 }
 
 .particulae-container {
+    border: 1px solid red;
+
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .particulae-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
@@ -26,4 +35,34 @@
     left: 0;
     margin: 0;
     padding: 0;
+} */
+
+#particulae--header {
+    border: 1px solid red;
+    position: absolute;
+    height: min-content;
+    /* left:  20%;
+    right: 20%;
+    bottom:20%;
+    top: 20%; */
+}
+
+#particulae--header > h1 {
+    /* border: 1px solid rgb(31, 255, 1); */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: Normal;
+    font-size: 3rem;
+    letter-spacing: -3px;
+    align-self: center;
+    max-width: 75vw;
+    margin: 0;
+}
+#particulae--header > h2 {
+    /* border: 1px solid rgb(31, 255, 1); */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: Normal;
+    font-size: 1rem;
+    align-self: center;
+    max-width: 60vw;
+    margin: 0%;
 }
