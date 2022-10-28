@@ -1,20 +1,16 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-// import { tsParticles } from "tsparticles-engine";
 
 export default function Particulae() {
     const particlesInit = async (main) => {
-        console.log(main);
-        console.log('reached particlesInit');
+
+        console.log('loaded particlesInit');
     
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
         await loadFull(main);
       };
     
       const options = {
-    
+        fullScreen: false,
         background: {
           color: "#fff"
         },
@@ -22,11 +18,10 @@ export default function Particulae() {
         particles: {
           color: {
             value: "#000",
-
           },
           links: {
             color: "#000",
-            distance: 200,
+            distance: 140,
             enable: true,
             opacity: 0.3,
             width: 1
@@ -39,15 +34,15 @@ export default function Particulae() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: .2,
+            speed: .3,
             straight: false
           },
           number: {
             density: {
               enable: true,
-              value_area: 800
+              value_area: 900
             },
-            value: 80
+            value: 100
           },
           opacity: {
             value: 0.5
@@ -68,7 +63,7 @@ export default function Particulae() {
       }
 
       return (
-        <div className="container">
+        <div className="particulae-container">
             <Particles
             id="tsparticles"
             init={particlesInit}

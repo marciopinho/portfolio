@@ -1,7 +1,9 @@
-.container {
-    height: 50px;
+/* .particulae-container {
+    height: 100vh;
     border: 2px solid red;
-}
+    margin: 0;
+    padding: 0;
+} */
 
 #tsparticles {
     position: absolute;
@@ -12,4 +14,16 @@
     padding: 0;
     margin: 0;
     z-index: -1; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+}
+
+.particulae-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
 }
