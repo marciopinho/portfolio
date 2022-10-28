@@ -87,9 +87,11 @@ export default function Particulae() {
       }
 
       return (
-        <Particles
-        id="tsparticles"
-        init={particlesInit}
-        options={options} />
+        <div className="container">
+            <Particles
+            id="tsparticles"
+            init={particlesInit}
+            options={options} />
+        </div>
       )
 }
