@@ -10,8 +10,8 @@ function App() {
 
   return (
     <div className="App">
-      <Rain />
-      {/* <Particulae /> */}
+      {/* <Rain /> */}
+      <Particulae />
       
       <h1>Vite + React</h1>
 

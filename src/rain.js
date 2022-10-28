@@ -4,16 +4,19 @@
 * Aurhor / Toshiya Marukubo
 * Twitter / https://twitter.com/toshiyamarukubo
 */
+const makeRain = (ref) => {
+  console.log(ref + 'first')
 
-(function () {
     'use strict';
-    window.addEventListener('load', function () {
-      const canvas = document.getElementById('canvas');
+    window.addEventListener('click', function () {
+      const canvas = ref.current;
+      console.log(canvas)
+      console.log('boing') // boing boing
   
       if (!canvas || !canvas.getContext) {
         return false;
       }
-      console.log('got here')
+
       /********************
         Random Number
       ********************/
@@ -144,4 +147,6 @@
       }, false);
   
     });
-  })();
+  };
+
+  export {makeRain}
