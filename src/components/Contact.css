@@ -7,14 +7,9 @@
 .contact--logos {
     border: 1px solid rgb(13, 255, 0);
     text-align: center;
-    
-    
 }
 
-.contact--logos > svg {
-    border: 1px solid red;
-    height: 60px;
-    padding: 1rem;
-
-
+.contact--logos > a {
+    font-size: 60px;
+    color: #000;
 }
