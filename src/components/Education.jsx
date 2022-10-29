@@ -6,6 +6,8 @@ import Ufmg from '../assets/logo_ufmg_m_only.png'
 export default function Education() {
     return (
         <div className="education">
+
+            <h1>education.</h1>
             <div className="education--instance">
                 <div>
                     <h2>Le Wagon</h2>
