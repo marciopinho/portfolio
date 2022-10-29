@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Contact() {
     return(
         <div className="contact">
-            <h3>Get in touch.</h3>
+            <h2>get in touch.</h2>
             <div className="contact--logos">
             
                 <a className="icon" href="https://www.instagram.com/marciopinho/">

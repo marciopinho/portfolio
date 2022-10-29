@@ -1,10 +1,20 @@
 .about {
+    border: 1px solid red;
+    margin: 1em;
     font-family: 'Courier New', Courier, monospace;
-    display: grid;
+    display: flex;
 }
 
 #about--profile-picture {
     border: 0.5em solid #000;
-    max-width: 80%;
+    max-height: 20em;
+    background:red;
+
+}
+
+.about--text {
+    border: 1px solid red;
+    padding: 2em 4em;
+    /* position: relative; */
 
 }
