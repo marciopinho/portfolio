@@ -1,4 +1,10 @@
+.about {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+}
+
 #about--profile-picture {
     border: 0.5em solid #000;
     max-width: 80%;
+
 }

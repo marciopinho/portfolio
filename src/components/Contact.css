@@ -1,0 +1,20 @@
+.contact {
+    border: 1px solid rgb(0, 34, 255);
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact--logos {
+    border: 1px solid rgb(13, 255, 0);
+    text-align: center;
+    
+    
+}
+
+.contact--logos > svg {
+    border: 1px solid red;
+    height: 60px;
+    padding: 1rem;
+
+
+}
