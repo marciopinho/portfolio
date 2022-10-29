@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import Education from './components/Education';
 
 
 
@@ -27,6 +28,7 @@ function App() {
       
 
       <About />
+      <Education />
       <Contact />
     </div>
   )
