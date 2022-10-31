@@ -7,21 +7,21 @@
     padding-top: 1em;
 }
 
-.education--instance {
+.education--entry {
     /* border: 1px solid red; */
     padding: 2em;
 }
 
-.education--instance img {
+.education--entry img {
     width: 6em;
     margin: 0;
 }
 
-.education--instance h2 {
+.education--entry h2 {
     margin: 0.25em 0;
 }
 
-.education--instance h3 {
+.education--entry h3 {
     margin: 0.25em 0;
 }
 
@@ -29,4 +29,14 @@
     font-weight: 100;
     /* border: 1px solid rgb(0, 231, 215); */
 
+}
+
+@media (min-width:481px) {
+    .education--entries {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .education--entry {
+        flex: 1;
+    }
 }

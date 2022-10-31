@@ -9,8 +9,22 @@
     /* for mobile only: */
     max-width: 100%;
 }
+/* desktop, tablets */
 
-.about--text {
-    /* border: 1px solid red */
-    /* margin: 1em; */
+@media (min-width:481px) {
+
+    .about {
+        flex-direction: row;
+        margin: 4em;
+    }
+
+    #about--profile-picture {
+        width: 20%;
+        align-self: center;
+    }
+    
+    .about--text {
+        margin: 4em;
+    }
+
 }

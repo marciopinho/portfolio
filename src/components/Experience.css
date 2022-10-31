@@ -3,21 +3,21 @@
     padding: 1em 0;
 } */
 
-.experience--instance {
+.experience--entry {
     /* border: 1px solid red; */
     margin: 4em 2em;
 }
 
-.experience--instance img {
+.experience--entry img {
     width: 6em;
     margin: 0 0%;
 }
 
-.experience--instance h2 {
+.experience--entry h2 {
     margin: 0.25em 0;
 }
 
-.experience--instance h3 {
+.experience--entry h3 {
     margin: 0.25em 0;
 }
 
@@ -25,4 +25,14 @@
     font-weight: 100;
     /* border: 1px solid rgb(0, 231, 215); */
 
+}
+
+@media (min-width:481px) {
+    .experience--entries {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .experience--entry {
+        flex: 1;
+    }
 }
