@@ -1,10 +1,14 @@
 .contact {
-    border: 1px solid rgb(0, 34, 255);
-    font-family: 'Courier New', Courier, monospace;
+    /* border: 1px solid rgb(0, 34, 255); */
+    background-color: rgb(245, 245, 245);
+}
+
+.contact h1 {
+    padding-top: 1em
 }
 
 .contact--logos {
-    border: 1px solid rgb(13, 255, 0);
+    /* border: 1px solid rgb(13, 255, 0); */
     text-align: center;
 }
 

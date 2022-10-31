@@ -1,0 +1,28 @@
+/* .experience {
+    background-color: rgb(245, 245, 245);
+    padding: 1em 0;
+} */
+
+.experience--instance {
+    /* border: 1px solid red; */
+    margin: 4em 2em;
+}
+
+.experience--instance img {
+    width: 6em;
+    margin: 0 0%;
+}
+
+.experience--instance h2 {
+    margin: 0.25em 0;
+}
+
+.experience--instance h3 {
+    margin: 0.25em 0;
+}
+
+.experience--degree {
+    font-weight: 100;
+    /* border: 1px solid rgb(0, 231, 215); */
+
+}
