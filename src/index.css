@@ -1,5 +1,9 @@
 body {
-  margin: 0;
+  margin: 1em;
+}
+
+h1 {
+  margin: 1em;
 }
 
 /* :root {

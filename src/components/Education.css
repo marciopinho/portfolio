@@ -1,13 +1,30 @@
 .education {
-    border: 2px solid rgb(255, 0, 255);
-    margin: 1em;
+    /* border: 2px solid rgb(255, 0, 255); */
     font-family: 'Courier New', Courier, monospace;
-
-
+    /* text-align: center; */
 }
+
 
 .education--instance {
     /* max-width: 25em; */
-    border: 1px solid red;
-    margin: 2em 1em;
+    /* border: 1px solid red; */
+    margin: 4em 2em;
+}
+
+.education--instance img {
+    width: 6em;
+    margin: 0 0%;
+}
+.education--instance h2 {
+    margin: 0.25em 0;
+}
+.education--instance h3 {
+    margin: 0.25em 0;
+}
+
+.education--degree {
+    /* border: 1px solid rgb(0, 231, 215); */
+
+    font-weight: 100;
+    margin: 0;
 }
