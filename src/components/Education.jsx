@@ -9,7 +9,7 @@ export default function Education() {
         <div className="education">
 
             <h1>education.</h1>
-            <div className="education--instance">
+            <div className="education--instance" data-aos="fade-up">
                 <img src={Wagon} alt="Le Wagon logo" />
                 <div>
                     <h2>Le Wagon</h2>
@@ -22,21 +22,21 @@ export default function Education() {
 
             </div>
 
-            <div className="education--instance">
+            <div className="education--instance" data-aos='fade-up'>
                 <img src={Polito} alt="" />
                 <h2>Politecnico di Torino</h2>
                 <h3 className='education--degree'>Systemic Design, MSc</h3>
                 <h3>2011 - 2013</h3>
             </div>
 
-            <div className="education--instance">
+            <div className="education--instance" data-aos='fade-up'>
                 <img src={Uemg} alt="" />
                 <h2>Universidade do Estado de Minas Gerais</h2>
                 <h3 className='education--degree'>Graphic Design, BSc</h3>
-                <h3>2008 - 2011</h3>
+                <h3>2006 - 2011</h3>
             </div>
 
-            <div className="education--instance">
+            <div className="education--instance" data-aos='fade-up'>
                 <img src={Ufmg} alt="" />
                 <h2>Universidade Federal de Minas Gerais</h2>
                 <h3 className='education--degree'>Business Administration, BSc</h3>

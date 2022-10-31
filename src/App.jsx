@@ -10,10 +10,12 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import Education from './components/Education';
 import Experience from './components/Experience';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
-library.add(fab, faCheckSquare, faCoffee)
-
+library.add(fab, faCheckSquare)
+AOS.init()
 
 
 
