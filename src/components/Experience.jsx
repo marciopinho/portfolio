@@ -14,8 +14,8 @@ export default function Experience() {
 
             <div className="experience--instance">
                 <div>
-                    <h2>Graphic Designer</h2>
-                    <h3 className='experience--role'>Freelancer</h3>
+                    <h2>Freelancer</h2>
+                    <h3 className='experience--role'>Graphic Designer</h3>
                     <h3>2014 - 2022</h3>
                     <p>Freelance designer for print and digital media.</p>
                 </div>
@@ -23,8 +23,8 @@ export default function Experience() {
 
             <div className="experience--instance">
                 <div>
-                    <h2>Real Estate Developer</h2>
-                    <h3 className='experience--role'>Harpa</h3>
+                    <h2>Harpa</h2>
+                    <h3 className='experience--role'>Real Estate Developer</h3>
                     <h3>2016 - 2018</h3>
                     <p>Active role in an affordable housing project consisting of four households, managing cashflow, purchase and inventory of building mater</p>
                 </div>
@@ -32,8 +32,8 @@ export default function Experience() {
 
             <div className="experience--instance">
                 <div>
-                    <h2>Intern</h2>
-                    <h3 className='experience--role'>Construtora Vesper</h3>
+                    <h2>Construtora Vesper</h2>
+                    <h3 className='experience--role'>Intern</h3>
                     <h3>2014</h3>
                     <p>Internship in a mid-size construction company, providing support with administrative tasks in market research, accounting and suppliers management.</p>
                 </div>

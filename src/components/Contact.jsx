@@ -7,19 +7,19 @@ export default function Contact() {
             <h1>get in touch.</h1>
             <div className="contact--logos">
             
-                <a className="icon" href="https://www.instagram.com/marciopinho/">
+                <a className="icon" target="_blank" href="https://www.instagram.com/marciopinho/">
                     <FontAwesomeIcon icon={['fab', 'instagram-square']} />
                 </a>
 
-                <a className="icon"  href="https://www.linkedin.com/in/marciopinho42/">
+                <a className="icon" target="_blank" href="https://www.linkedin.com/in/marciopinho42/">
                     <FontAwesomeIcon icon={['fab', 'linkedin']} />
                 </a>
 
-                <a className="icon"  href="https://github.com/marciopinho">
+                <a className="icon" target="_blank" href="https://github.com/marciopinho">
                     <FontAwesomeIcon icon={['fab', 'github-square']} />
                 </a>
 
-                <a className="icon"  href="https://api.whatsapp.com/send/?phone=5531988318145">
+                <a className="icon" target="_blank" href="https://api.whatsapp.com/send/?phone=5531988318145">
                     <FontAwesomeIcon icon={['fab', 'whatsapp-square']} />
                 </a>
             </div>
