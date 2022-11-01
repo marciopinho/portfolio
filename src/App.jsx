@@ -3,6 +3,7 @@ import './App.css'
 import Particulae from './components/Particulae';
 import About from './components/About';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -31,6 +32,7 @@ function App() {
       
 
       <About />
+      <Projects />
       <Education />
       <Experience />
       <Contact />
