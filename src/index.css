@@ -1,9 +1,13 @@
 body {
   /* margin: 1em; */
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(251, 220, 67);
+  background-color: #fbdc43;
 }
 
-h1 {
-  /* margin: 1em; */
+h1, h2, h3 {
+  font-family: Rubik;
+}
+
+h3 {
+  font-weight: 400;
 }
