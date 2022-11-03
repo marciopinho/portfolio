@@ -32,6 +32,16 @@ export default function Projects() {
 
                 </div>
 
+                <div className="projects--entry" data-aos="fade-up">
+                    <img src="" alt="" />
+
+                        <h2>Portfolio</h2>
+                        <h3 className=''>My website.</h3>
+                        <h3>2022</h3>
+                        <p className="projects--p">The page you're in is my first ReactJS project. It was created with Vite, and the code is available on <a href="https://github.com/marciopinho/portfolio" target='_blank'>my GitHub</a>.</p>
+
+                </div>
+
 
             </div>
         </div>

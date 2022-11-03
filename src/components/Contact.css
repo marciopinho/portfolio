@@ -1,22 +1,26 @@
 .contact {
     /* border: 1px solid rgb(0, 34, 255); */
-    background-color: rgb(245, 245, 245);
-    padding-bottom: 1em;
-}
+    background-color: #fdc425;
+    margin: 4% 1% 1% 1%;
 
+    /* padding: 2%; */
+}
 .contact h1 {
-    padding-top: 1em
+    padding: 2%;
+    /* border: 1px solid rgb(13, 255, 0); */
+    margin: 3% 1% 1% 2%;
 }
-
 .contact--logos {
     /* border: 1px solid rgb(13, 255, 0); */
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
 }
 
 .contact--logos > a {
     font-size: 3em;
     color: #000;
-    margin: 1rem;
+    margin: 1%;
+    padding: 2%;
 }
 
 @media (min-width:481px) {

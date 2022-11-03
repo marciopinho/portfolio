@@ -4,7 +4,7 @@ export default function About() {
             <img src="https://res.cloudinary.com/dkearav60/image/upload/v1666981964/profile-pictures/pixelated-avatar-medium_wfhyhy.jpg" alt="profile picture" id="about--profile-picture" data-aos="fade-up"/>
             <div className="about--text">
                 <h1 className="about--title" data-aos="fade-up">about.</h1>
-                <p className="about--content" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="about--content" data-aos="fade-up">I'm a full-stack web developer based in Brazil. I've worked mostly with Ruby on Rails, JavaScript, CSS, HTML and PostgreSQL, but I’m in a permanent state of learning new tools and delving deeper into the ones I'm comfortable with.</p>
             </div>
         </div>
     )

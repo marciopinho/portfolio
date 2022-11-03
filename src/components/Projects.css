@@ -1,17 +1,16 @@
-.projects {
-    /* border: 2px solid rgb(255, 0, 255); */
-    background-color: rgb(245, 245, 245);
-}
 
 .projects h1 {
-    padding-top: 1em;
+    padding: 2%;
+    background-color: rgb(253, 196, 37);
+    margin: 4% 1% 1% 1%;
 }
 
 .projects--entry {
-
-    padding: 2em;
-
+    margin: 1%;
+    padding: 2%;
+    background-color: rgb(253, 196, 37);
 }
+
 .projects--entry a {
     text-decoration: none;
     font-weight: 600;

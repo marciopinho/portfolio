@@ -12,7 +12,7 @@ export default function Particulae() {
       const options = {
         fullScreen: false,
         background: {
-          color: "#fff"
+          color: "#fbdc43"
         },
 
         particles: {
