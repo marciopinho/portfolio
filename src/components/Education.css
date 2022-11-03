@@ -1,19 +1,14 @@
-.education {
-    /* border: 2px solid rgb(255, 0, 255); */
-}
-
 .education h1 {
-    font-family: Rubik;
-    padding: 2%;
+    padding: 5%;
     background-color: #fdc425;
-    margin: 4% 1% 1% 1%;
+    margin: 6% 3% 3% 3%;
 }
 
 .education--entry {
     background-color: #fdc425;
     /* border: 1px solid red; */
-    margin: 1%;
-    padding: 2%;
+    margin: 3%;
+    padding: 6%;
 }
 
 .education--entry img {
@@ -36,11 +31,17 @@
 }
 
 @media (min-width:481px) {
+    .education h1 {
+        padding: 2%;
+        margin: 3% 1% 1% 1%;
+    }
     .education--entries {
         display: flex;
         flex-wrap: wrap;
     }
     .education--entry {
         flex: 1;
+        margin: 1%;
+        padding: 2%;
     }
 }

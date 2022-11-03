@@ -1,9 +1,9 @@
 .contact {
     /* border: 1px solid rgb(0, 34, 255); */
     background-color: #fdc425;
-    margin: 4% 1% 1% 1%;
+    margin: 3%;
 
-    /* padding: 2%; */
+    padding: 2%;
 }
 .contact h1 {
     padding: 2%;
@@ -26,7 +26,8 @@
 @media (min-width:481px) {
     .contact {
         display: flex;
-        padding-bottom: 0;
+        padding: 0;
+        margin: 3% 1% 1% 1%;
     }
 
     .contact > h1 {

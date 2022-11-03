@@ -1,13 +1,13 @@
 
 .projects h1 {
-    padding: 2%;
+    padding: 5%;
     background-color: rgb(253, 196, 37);
-    margin: 4% 1% 1% 1%;
+    margin: 6% 3% 3% 3%;
 }
 
 .projects--entry {
-    margin: 1%;
-    padding: 2%;
+    margin: 3%;
+    padding: 6%;
     background-color: rgb(253, 196, 37);
 }
 
@@ -41,11 +41,17 @@
 }
 
 @media (min-width:481px) {
+    .projects h1 {
+        padding: 2%;
+        margin: 3% 1% 1% 1%
+    }
     .projects--entries {
         display: flex;
         flex-wrap: wrap;
     }
     .projects--entry {
         flex: 1;
+        margin: 1%;
+        padding: 2%;
     }
 }
