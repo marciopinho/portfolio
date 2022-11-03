@@ -1,0 +1,52 @@
+.projects {
+    /* border: 2px solid rgb(255, 0, 255); */
+    background-color: rgb(245, 245, 245);
+}
+
+.projects h1 {
+    padding-top: 1em;
+}
+
+.projects--entry {
+
+    padding: 2em;
+
+}
+.projects--entry a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.projects--entry a:hover {
+    text-decoration: underline;
+}
+
+
+.projects--entry img {
+    width: 6em;
+    margin: 0;
+}
+
+.projects--entry h2 {
+    margin: 0.25em 0;
+}
+
+.projects--entry h3 {
+    margin: 0.25em 0;
+}
+
+.projects--degree {
+    font-weight: 100;
+    /* border: 1px solid rgb(0, 231, 215); */
+
+}
+
+@media (min-width:481px) {
+    .projects--entries {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projects--entry {
+        flex: 1;
+    }
+}
