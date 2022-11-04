@@ -13,6 +13,7 @@ import Experience from './components/Experience';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Maps from './components/Maps';
 
 
 library.add(fab, faCheckSquare)
@@ -36,6 +37,7 @@ function App() {
       <Education />
       {/* <Experience /> */}
       <Contact />
+      <Maps />
     </div>
   )
 }
