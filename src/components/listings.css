@@ -1,57 +1,58 @@
 
-.projects h1 {
+.listings h1 {
     padding: 5%;
     background-color: rgb(253, 196, 37);
     margin: 6% 3% 3% 3%;
 }
 
-.projects--entry {
+.listing-card {
     margin: 3%;
     padding: 6%;
     background-color: rgb(253, 196, 37);
 }
 
-.projects--entry a {
+.listings a {
     text-decoration: none;
     font-weight: 600;
     color: black;
 }
-.projects--entry a:hover {
+
+.listings a:hover {
     text-decoration: underline;
 }
 
 
-.projects--entry img {
+.listing-card img {
     width: 6em;
     margin: 0;
 }
 
-.projects--entry h2 {
+.listing-card h2, h3 {
     margin: 0.25em 0;
 }
 
-.projects--entry h3 {
-    margin: 0.25em 0;
-}
-
-.projects--degree {
+.projects--degree {  /*/ ???? */
     font-weight: 100;
     /* border: 1px solid rgb(0, 231, 215); */
-
 }
 
 @media (min-width:481px) {
-    .projects h1 {
+    .listings h1 {
         padding: 2%;
         margin: 3% 1% 1% 1%
     }
-    .projects--entries {
+    .listings {
         display: flex;
         flex-wrap: wrap;
     }
-    .projects--entry {
+    .listing-card {
         flex: 1;
         margin: 1%;
         padding: 2%;
     }
+}
+
+.listing-degree {
+    font-weight: 100;
+    /* border: 1px solid rgb(0, 231, 215); */
 }
