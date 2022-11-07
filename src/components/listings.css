@@ -1,14 +1,8 @@
-
-.listings h1 {
-    padding: 5%;
-    background-color: rgb(253, 196, 37);
-    margin: 6% 3% 3% 3%;
-}
-
 .listing-card {
     margin: 3%;
     padding: 6%;
     background-color: rgb(253, 196, 37);
+    border-radius: 4px;
 }
 
 .listings a {
@@ -26,20 +20,7 @@
     margin: 0;
 }
 
-.listing-card h2, h3 {
-    margin: 0.25em 0;
-}
-
-.projects--degree {  /*/ ???? */
-    font-weight: 100;
-    /* border: 1px solid rgb(0, 231, 215); */
-}
-
 @media (min-width:481px) {
-    .listings h1 {
-        padding: 2%;
-        margin: 3% 1% 1% 1%
-    }
     .listings {
         display: flex;
         flex-wrap: wrap;
@@ -49,9 +30,4 @@
         margin: 1%;
         padding: 2%;
     }
-}
-
-.listing-degree {
-    font-weight: 100;
-    /* border: 1px solid rgb(0, 231, 215); */
 }

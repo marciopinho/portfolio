@@ -1,40 +1,25 @@
-.contact {
-    /* border: 1px solid rgb(0, 34, 255); */
-    background-color: #fdc425;
-    margin: 3%;
-
-    padding: 2%;
-}
-.contact h1 {
-    padding: 2%;
-    /* border: 1px solid rgb(13, 255, 0); */
-    margin: 3% 1% 1% 2%;
-}
 .contact--logos {
-    /* border: 1px solid rgb(13, 255, 0); */
-    /* text-align: center; */
     display: flex;
+    background-color: #fdc425;
+    border-radius: 4px;
+    margin: 3%;
+    padding: 4% 4% 1% 4%;
 }
 
 .contact--logos > a {
     font-size: 3em;
     color: #000;
-    margin: 1%;
-    padding: 2%;
+    margin: auto;
 }
 
 @media (min-width:481px) {
-    .contact {
-        display: flex;
-        padding: 0;
-        margin: 3% 1% 1% 1%;
-    }
-
-    .contact > h1 {
-        padding: 0;
-    }
     .contact--logos {
-        margin: 1.5em;
+        flex: 1;
+        margin: 1%;
+        padding: 0.5em;
     }
 
+    .contact--logos > a {
+        margin: 1%;
+    }
 }

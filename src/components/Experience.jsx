@@ -1,7 +1,7 @@
 export default function Experience() {
     return (
         <div className="experience">
-            <h1 data-aos="fade-up">experience.</h1>
+            <h1 className="section-header" data-aos="fade-up">.experience</h1>
 
             <div className="experience--entries">
 

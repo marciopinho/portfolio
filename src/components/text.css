@@ -1,0 +1,23 @@
+h2 {
+    margin: 0.25em 0;
+}
+
+h3 {
+    margin: 0.25em 0;
+}
+
+.section-header {
+    padding: 5%;
+    background-color: #fdc425;
+    margin: 6% 3% 3% 3%;
+    border-radius: 4px;
+}
+
+@media (min-width:481px) {
+    .section-header {
+        padding: 2%;
+        margin: 3% 1% 1% 1%
+    }
+
+}
+

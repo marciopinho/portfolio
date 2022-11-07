@@ -5,7 +5,7 @@ export default function Contact() {
     return(
         <div className="contact">
 
-            <h1>get in touch.</h1>
+            <h1 className="section-header" >.get in touch</h1>
             
             <div className="contact--logos">
             
