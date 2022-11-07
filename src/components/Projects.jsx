@@ -36,6 +36,7 @@ export default function Projects() {
                     <p className="projects--p">The page you're in is my first ReactJS project. It was created with Vite, and the code is available on <a href="https://github.com/marciopinho/portfolio" target='_blank'>my GitHub</a>.</p>
                 </div>
 
+
             </div>
         </div>
     )
