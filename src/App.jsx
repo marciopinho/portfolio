@@ -37,7 +37,7 @@ function App() {
       <Education />
       {/* <Experience /> */}
       <Contact />
-      <Maps />
+      {/* <Maps /> */}
     </div>
   )
 }

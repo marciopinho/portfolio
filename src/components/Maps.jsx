@@ -1,6 +1,6 @@
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import { useMemo } from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+// import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 export default function Maps() {
     const center = useMemo(() => ({ lat: 44, lng: -80 }), []);
