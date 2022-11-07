@@ -2,7 +2,6 @@ import Uemg from '../assets/uemg.png'
 import Polito from '../assets/polito.png'
 import Ufmg from '../assets/logo_ufmg_m_only.png'
 import Wagon from '../assets/wagon_black.png'
-// import Lewagon from '../assets/lewagon.png'
 
 export default function Education() {
     return (

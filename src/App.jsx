@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import Education from './components/Education';
 import Experience from './components/Experience';
 
@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 import Maps from './components/Maps';
 
 
-library.add(fab, faCheckSquare)
+library.add(fab, faCheckSquare, faArrowUpRightFromSquare)
 AOS.init()
 
 
@@ -31,7 +31,7 @@ function App() {
       {/* <canvas id="canvas">Canvas not supported.</canvas> -------now this is unecessary*/}
 
       
-
+      {/* <FontAwesomeIcon icon='fa-arrow-up-right-from-square' /> */}
       <About />
       <Projects />
       <Education />
