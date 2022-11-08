@@ -11,8 +11,7 @@
 }
 
 .particulae-container {
-    /* border: 1px solid red; */
-    /* position: relative; */
+    background-color: #fbdc43;
     display: flex;
     justify-content: center;
     align-items: center;
