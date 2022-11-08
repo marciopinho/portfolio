@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
 export default function Contact() {
     return(
         <div className="contact">
@@ -21,7 +20,7 @@ export default function Contact() {
                     <FontAwesomeIcon icon={['fab', 'github-square']} />
                 </a>
 
-                <a className="icon" target="_blank" href="https://api.whatsapp.com/send/?phone=5531988318145">
+                <a className="icon" target="_blank" href="https://api.whatsapp.com/send/?phone=5511931498597">
                     <FontAwesomeIcon icon={['fab', 'whatsapp-square']} />
                 </a>
             </div>
