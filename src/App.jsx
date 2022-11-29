@@ -25,14 +25,11 @@ AOS.init()
 function App() {
   const [count, setCount] = useState(0)
   const projects = projects_data.map(item => {
-    return (
-      <div>
-        
+    return (        
         <Projects
           key={item.id}
           {...item}
         />
-      </div>
     )
   })
 
@@ -42,10 +39,14 @@ function App() {
       <Particulae />
 
       <About />
+
       <section className='projects'>
         <h1 className="section-header" data-aos="fade-up">.projects</h1>
-        {projects}
+        <div className='listings'>
+          {projects}
+        </div>
       </section>
+
       <Education />
 
       <Contact />
