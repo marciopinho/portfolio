@@ -4,6 +4,7 @@ import Particulae from './components/Particulae';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import projects_data from "../projects_data"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -23,21 +24,33 @@ AOS.init()
 
 function App() {
   const [count, setCount] = useState(0)
+  const projects = projects_data.map(item => {
+    return (        
+        <Projects
+          key={item.id}
+          {...item}
+        />
+    )
+  })
 
   return (
     <div className="App">
 
       <Particulae />
-      {/* <canvas id="canvas">Canvas not supported.</canvas> -------now this is unecessary*/}
 
-      
-      {/* <FontAwesomeIcon icon='fa-arrow-up-right-from-square' /> */}
       <About />
-      <Projects />
+
+      <section className='projects'>
+        <h1 className="section-header" data-aos="fade-up">.projects</h1>
+        <div className='listings'>
+          {projects}
+        </div>
+      </section>
+
       <Education />
-      {/* <Experience /> */}
+
       <Contact />
-      {/* <Maps /> */}
+
     </div>
   )
 }
