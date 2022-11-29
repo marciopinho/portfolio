@@ -28,7 +28,6 @@ export default [
     subtitle: "B2P and P2P coworking spaces.",
     date: "2022",
     description: "A Ruby on Rails platform to connect businesses or individuals who have available coworking spaces and potential customers. The application was developed as a project for Le Wagon's web development bootcamp.",
-    link: "",
   },
   {
     id: 5,

@@ -48,9 +48,9 @@ function App() {
         {projects}
       </section>
       <Education />
-      {/* <Experience /> */}
+
       <Contact />
-      {/* <Maps /> */}
+
     </div>
   )
 }
