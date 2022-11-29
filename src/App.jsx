@@ -27,7 +27,7 @@ function App() {
   const projects = projects_data.map(item => {
     return (
       <div>
-        <h1 className="section-header" data-aos="fade-up">.projects</h1>
+        
         <Projects
           key={item.id}
           {...item}
@@ -41,10 +41,9 @@ function App() {
 
       <Particulae />
 
-      
-      {/* <FontAwesomeIcon icon='fa-arrow-up-right-from-square' /> */}
       <About />
       <section className='projects'>
+        <h1 className="section-header" data-aos="fade-up">.projects</h1>
         {projects}
       </section>
       <Education />
