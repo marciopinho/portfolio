@@ -2,7 +2,7 @@ export default [
   {
     id: 1,
     title: "FestCheck",
-    subtitle: "Map your listening habits and find gigs to go",
+    subtitle: "Map your listening habits and find gigs to go.",
     date: "Ongoing",
     description: "FestCheck picks up where Partify left off. The application is being further developed and improved upon, before being released for real-world testing.",
   },
@@ -11,7 +11,7 @@ export default [
     title: "Partify",
     subtitle: "Streamlining nightlife recommendations.",
     date: "2022",
-    description: "Partify is a web app that models a user's music taste from data fetched via Spotify's API and recommends matching events and venues. Partify is not online as of this writing, but you can read about it <a href='https://marciopinho.medium.com/partify-streamlining-nightlife-recommendations-aeb019ca273a' target='_blank'><strong>here</strong></a>.</p>",
+    description: "Partify is a web app that models a user's music taste from data fetched via Spotify's API and recommends matching events and venues. Partify is not online as of this writing, but you can click the title above to read about it.",
     link: "https://marciopinho.medium.com/partify-streamlining-nightlife-recommendations-aeb019ca273a",
   },
   {
@@ -28,6 +28,7 @@ export default [
     subtitle: "B2P and P2P coworking spaces.",
     date: "2022",
     description: "A Ruby on Rails platform to connect businesses or individuals who have available coworking spaces and potential customers. The application was developed as a project for Le Wagon's web development bootcamp.",
+    link: "",
   },
   {
     id: 5,
