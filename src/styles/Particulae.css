@@ -5,12 +5,10 @@
     right: 0;
     padding: 0;
     margin: 0;
-    /* z-index: -1; */
     height: 100vh;
 }
 
 .particulae-container {
-    background-color: #fbdc43;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,17 +17,16 @@
 #particulae--header {
     /* border: 1px solid red; */
     position: absolute;
-    height: min-content;
+    /* height: min-content; */
 }
 
 #particulae--header > h1 {
     /* border: 1px solid rgb(31, 255, 1); */
-    font-family: Rubik, Courier,monospace;
+    font-family: Rubik, Courier, monospace;
     font-weight: 900;
-    letter-spacing: 0px !important;
+    letter-spacing: 0px;
     color: #fff;
     font-size: 3rem;
-    letter-spacing: -3px;
     align-self: center;
     max-width: 75vw;
     margin: 0;
@@ -38,8 +35,14 @@
     /* border: 1px solid rgb(31, 255, 1); */
     font-weight: Normal;
     color: #fff;
-    letter-spacing: 1em;
+    letter-spacing: 0.2em;
     font-size: 1rem;
     max-width: 60vw;
     margin: 0%;
+}
+
+@media (min-width:481px) {
+    #particulae--header > h2 {
+        letter-spacing: 0.8em;
+    }
 }

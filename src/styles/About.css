@@ -1,8 +1,14 @@
 .about {
-    border: 1px solid red;
+    background-color: #f0f0f0;
+    height: 100vh;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
-    margin: 3%;
+    padding: 1em;
+}
+
+.about--title {
+    color: #a40600;
 }
 
 #about--profile-picture {
@@ -16,7 +22,9 @@
 
     .about {
         flex-direction: row;
-        margin: 4em;
+        align-items: center;
+        margin: 0;
+        padding: 4em;
     }
 
     #about--profile-picture {
