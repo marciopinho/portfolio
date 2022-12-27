@@ -8,13 +8,10 @@ import educationData from "../public/educationData"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
-
-// tem[p test:
-import ticket from './assets/ticket-fest-check-low-md.png'
-
 import AOS from 'aos';
+
+// check this stylesheet below, seems misplaced
 import 'aos/dist/aos.css';
-// import Maps from './components/Maps';
 import Card from './components/Card';
 
 
@@ -31,8 +28,6 @@ function App() {
       <Particulae />
 
       <About />
-
-      <span>oooj</span><img src={ticket} alt="" />
 
       <div className="projects">
         <h1 className="section-header" data-aos="fade-up">.projects</h1>
