@@ -3,7 +3,6 @@ import './App.css'
 import Particulae from './components/Particulae';
 import About from './components/About';
 import Contact from './components/Contact';
-import Projects from './components/Projects';
 import projectsData from "../projectsData"
 import educationData from "../educationData"
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -22,15 +21,6 @@ AOS.init()
 
 
 function App() {
-  const [count, setCount] = useState(0)
-  const projects = projectsData.map(item => {
-    return (        
-        <Projects
-          key={item.id}
-          {...item}
-        />
-    )
-  })
 
   return (
     <div className="App">

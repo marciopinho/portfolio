@@ -18,11 +18,13 @@ export default [
     subtitle: "Graphic Design, BSc",
     date: "2006 - 2011",
     image: "./src/assets/uemg.png",
+    externalLink: "https://uemg.br/internacional",
   },
   {
     title: "UFMG",
     subtitle: "Business Administration, BSc",
     date: "2006 - 2011",
     image: "./src/assets/logo_ufmg_m_only.png",
+    externalLink: "https://ufmg.br/international-visitors"
   }
 ]
