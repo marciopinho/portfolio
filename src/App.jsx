@@ -9,6 +9,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
+// tem[p test:
+import ticket from './assets/ticket-fest-check-low-md.png'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import Maps from './components/Maps';
@@ -29,7 +32,7 @@ function App() {
 
       <About />
 
-      <img src="./assets/ticket-fest-check-low-md.png" alt="" />
+      <span>oooj</span><img src={ticket} alt="" />
 
       <div className="projects">
         <h1 className="section-header" data-aos="fade-up">.projects</h1>
