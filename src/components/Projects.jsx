@@ -2,8 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 export default function Projects(props) {
-    let link
-    // if (props.link)
 
 
     return (

@@ -4,17 +4,16 @@ import Particulae from './components/Particulae';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
-import projects_data from "../projects_data"
-
+import projectsData from "../projectsData"
+import educationData from "../educationData"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
-import Education from './components/Education';
-import Experience from './components/Experience';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Maps from './components/Maps';
+// import Maps from './components/Maps';
+import Card from './components/Card';
 
 
 library.add(fab, faCheckSquare, faArrowUpRightFromSquare)
@@ -24,7 +23,7 @@ AOS.init()
 
 function App() {
   const [count, setCount] = useState(0)
-  const projects = projects_data.map(item => {
+  const projects = projectsData.map(item => {
     return (        
         <Projects
           key={item.id}
@@ -40,14 +39,23 @@ function App() {
 
       <About />
 
-      <section className='projects'>
+      <div className="projects">
         <h1 className="section-header" data-aos="fade-up">.projects</h1>
-        <div className='listings'>
-          {projects}
+        <div className="listings">
+          {projectsData.map(item => (
+            <Card key={item.title} {...item} />
+          ))}
         </div>
-      </section>
-
-      <Education />
+      </div>
+      
+      <div className="education">
+        <h1 className="section-header" data-aos="fade-up">.education</h1>
+        <div className="listings">
+          {educationData.map(item => (
+            <Card key={item.title} {...item} />
+          ))}
+        </div>
+      </div>
 
       <Contact />
 

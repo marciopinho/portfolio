@@ -12,19 +12,19 @@ export default function Particulae() {
       const options = {
         fullScreen: false,
         background: {
-          color: "#fbdc43"
+          color: "#a40600"
         },
 
         particles: {
           color: {
-            value: "#000",
+            value: "fff",
           },
           links: {
-            color: "#000",
+            color: "#fff",
             distance: 140,
             enable: true,
-            opacity: 0.3,
-            width: 1
+            opacity: 0.6,
+            width: 1.2
           },
           collisions: {
             enable: true
@@ -45,19 +45,20 @@ export default function Particulae() {
             value: 100
           },
           opacity: {
-            value: 0.5
+            value: 0.8
           },
           shape: {
-            type: { "star": {
-                "sides": 5, // the number of sides of the star
-                "inset": 2 // the inset length, 2 is the default and an acceptable value
-            } }
+            // type: { "star": {
+            //     "sides": 5, // the number of sides of the star
+            //     "inset": 2 // the inset length, 2 is the default and an acceptable value
+            // } }
             // type: "edge" // "circle"
+            type: "circle"
 
           },
           size: {
             random: true,
-            value: { min: 0.5, max: 4.5 }
+            value: { min: 0.5, max: 2.5 }
           }
         }
       }
