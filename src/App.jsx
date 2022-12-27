@@ -3,8 +3,8 @@ import './App.css'
 import Particulae from './components/Particulae';
 import About from './components/About';
 import Contact from './components/Contact';
-import projectsData from "../projectsData"
-import educationData from "../educationData"
+import projectsData from "../public/projectsData"
+import educationData from "../public/educationData"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
