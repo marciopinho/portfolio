@@ -7,7 +7,7 @@ export default function Card(props) {
     return (
 
         <div className="listing-card" data-aos="fade-up">
-          <a href={props.externalLink || props.link}>
+          <a href={props.externalLink || props.link} target={target}>
             <img src={props.image} />
           </a>
           <a href={props.link || props.externalLink} target={target}><h2>{props.title} {props.externalLink && <FontAwesomeIcon icon='fa-arrow-up-right-from-square' />}</h2></a>
