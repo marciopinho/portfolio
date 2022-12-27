@@ -29,6 +29,8 @@ function App() {
 
       <About />
 
+      <img src="./assets/ticket-fest-check-low-md.png" alt="" />
+
       <div className="projects">
         <h1 className="section-header" data-aos="fade-up">.projects</h1>
         <div className="listings">
