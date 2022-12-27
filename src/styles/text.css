@@ -13,13 +13,15 @@ h3 {
 
 p {
     font-family: 'Courier New', Courier, monospace;
+    /* color: #ffffff; */
 }
 
 .section-header {
     padding: 5%;
-    background-color: #fdc425;
+    color: #f0f0f0;
+    /* background-color: #f7a87d; */
     margin: 6% 3% 3% 3%;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 @media (min-width:481px) {
