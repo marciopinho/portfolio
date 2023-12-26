@@ -5,7 +5,6 @@ export default function Card(props) {
   const target = props.externalLink ? '_blank' : '';
 
     return (
-
         <div className="listing-card" data-aos="fade-up">
           <a href={props.externalLink || props.link} target={target}>
             <img src={props.image} />
